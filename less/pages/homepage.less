@@ -1,0 +1,144 @@
+.banner-top-homepage {
+  position: relative;
+  background: url("../img/banner-top.jpg") no-repeat center center;
+  height: 100%;
+  .date-banner {
+    @media (max-width: @screen-sm-max) {
+      padding-top: 165px;
+    }
+    @media (max-width: @screen-xs-max) {
+      padding-top: 96px;
+    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 100px 20px 20px 20px;
+    background-color: @white;
+    opacity: 0.6;
+    h4 {
+      font-weight: 400;
+    }
+  }
+  @media (max-width: @screen-xs-max) {
+    .primary-section {
+      padding-top: 280px;
+    }
+    .btn-custom {
+      margin-top: 50px;
+    }
+  }
+  .banner-container {
+    text-align: center;
+    h3 {
+      color: @white;
+      margin-bottom: 10px;
+    }
+    .btn-custom {
+      margin-top: 80px;
+      color: @white;
+      border-color: @white;
+      &:hover {
+        background-color: @white;
+        color: @black;
+      }
+    }
+  }
+}
+
+#festival {
+  padding-top: 120px;
+  @media (max-width: @screen-sm-max) {
+    padding-top: 80px;
+  }
+  .section-link {
+    margin-top: 30px;
+  }
+}
+
+#actuality {
+  @media (max-width: @screen-sm-max) {
+    .section-title {
+      margin-bottom: 0;
+    }
+  }
+  @media (max-width: @screen-xs-max) {
+    .section-title {
+      margin-bottom: 0;
+    }
+  }
+  .section-link {
+    text-align: right;
+    p {
+      padding-left: 0;
+      padding-right: 30px;
+    }
+    @media (max-width: @screen-sm-max) {
+      margin-bottom: 50px;
+    }
+    @media (max-width: @screen-xs-max) {
+      margin-bottom: 50px;
+    }
+  }
+  img {
+    .resize-picture(200px);
+  }
+}
+
+#contact {
+  background-color: @blue;
+  margin-bottom: 120px;
+  padding-bottom: 0;
+  .contact-content {
+    margin-top: 130px;
+    margin-bottom: 120px;
+    .section-title {
+      color: @white;
+      padding-bottom: 0;
+      h2 {
+        color: @white;
+        span {
+          @media (max-width: @screen-xs-max) {
+            font-size: 19px;
+          }
+          color: @grey;
+          text-transform: lowercase;
+        }
+      }
+      hr {
+        border-top: 2px solid @white;
+      }
+
+    }
+    .action-button-container  {
+      text-align: right;
+      .btn-custom {
+        color: @white;
+        border-color: @white;
+        &:hover {
+          color: @blue;
+          background-color: @white;
+        }
+      }
+    }
+  }
+}
+
+#day-projections {
+  /*.cf-margin-bottom {
+    margin-bottom: 150px;
+  }*/
+  @media (max-width: @screen-sm-max) {
+    [class*="col-"]:nth-child(1) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+#partners {
+  .partners-container {
+    text-align: center;
+    li {
+      margin: 0 20px;
+    }
+  }
+}

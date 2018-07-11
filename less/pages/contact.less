@@ -1,0 +1,66 @@
+.contact-banner {
+  background: url('../img/parcmonceau.jpg');
+}
+
+
+#contact-info-container {
+  .info-contact {
+    li {
+        padding-bottom: 10px;
+        line-height: 27px;
+        a {
+        }
+        .fa {
+          width: 50px;
+          float: left;
+        }
+        .fa-map-marker {
+          margin-top: 8px;
+          font-size: 2.8em;
+          padding-left: 6px;
+        }
+      }
+    }
+  .form-contact {
+    [class*="col-"]:nth-child(1) {
+      margin-bottom: 0;
+    }
+    .form-group {
+      width: 100%;
+    }
+  }
+}
+
+#practical-informations {
+  .access-container {
+    h3 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    p:last-child {
+      margin: 0;
+    }
+    .btn-custom {
+      margin-top: 5px;
+    }
+  }
+  .bordered-container {
+    border-left: 1px solid @black;
+    @media (max-width: @screen-sm-max) {
+      border: 0;
+    }
+  }
+  .road, .flight {
+    margin-bottom: 50px;
+  }
+}
+
+#contact-map-container {
+  iframe {
+    width: 100%;
+    height: 700px;
+    border: 0;
+  }
+}

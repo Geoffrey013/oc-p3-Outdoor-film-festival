@@ -1,0 +1,60 @@
+.programmation-banner {
+  background: url('../img/programmation.jpg') no-repeat;
+  background-size: cover;
+}
+
+#programmation {
+  .row:nth-child(2) {
+    margin-top: 50px;
+  }
+  .panel {
+    margin-bottom: 0;
+  }
+  .panel-custom-previous-broadcasts {
+    background-color: @black;
+    .panel-heading {
+      color: @white;
+    }
+  }
+  .panel-custom-day-broadcasts {
+    background-color: @white;
+    border: 1px solid @blue;
+    .panel-heading {
+      color: @black;
+      .btn-custom:hover {
+        background-color: inherit;
+        color: inherit;
+      }
+    }
+  }
+  .panel-custom-upcoming-broadcasts {
+    background-color: @blue;
+    .panel-heading {
+      color: @white;
+    }
+  }
+  .table {
+    margin-top: 50px;
+    border-collapse: separate;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 700;
+    th {
+      border: none;
+      color: @white;
+      padding: 20px 0 20px 20px;
+      font-size: 22px;
+    }
+    td {
+      border: none;
+      color: @white;
+      padding: 20px 0 20px 20px;
+    }
+    tr:nth-child(even) {
+      background-color: @table-grey-even;
+    }
+    tr:nth-child(odd) {
+      background-color: @table-grey-odd;
+    }
+  }
+}

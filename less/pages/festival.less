@@ -1,0 +1,21 @@
+.festival-banner {
+  background: url("../img/home_bg-0.png") no-repeat bottom center;
+}
+
+#festival-presentation {
+  .row {
+    margin-bottom: 120px;
+    [class*="col-"] {
+      margin-bottom: 0;
+    }
+    @media (max-width: @screen-xs-max) {
+      margin-bottom: 80px;
+    }
+  }
+  .row:last-child {
+    margin-bottom: 0;
+  }
+  figure {
+    margin-bottom: 50px;
+  }
+}

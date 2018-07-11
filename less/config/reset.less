@@ -1,0 +1,194 @@
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    font-weight: 400;
+    font-family: 'Open Sans';
+
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 900;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 34px
+}
+
+section {
+  padding-bottom: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: @black;
+  font-size: 17px;
+  line-height: 27px;
+  &:hover {
+    text-decoration: none;
+    color: @blue;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+[class*=' input'], .form-control {
+  border-radius: 0;
+}
+
+.table {
+  margin: 0 !imporant;
+}
+
+input {
+  background-color: @white;
+  &:active {
+    border: none;
+  }
+}
+
+p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+em {
+  font-weight: 700;
+}
+
+ul, ol {
+  margin: 0;
+  list-style: none;
+}
+
+hr {
+  margin: 0;
+}
+
+.container {
+  max-width: 1340px;
+}
+
+img {
+  width: 100%;
+}
+
+/*logo*/
+.logo {
+  font-size: 30px;
+  color: @white;
+  span {
+    color: @blue;
+  }
+}
+
+.banner-top {
+  height: 700px;
+  margin-bottom: 120px;
+  position: relative;
+  .blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .banner-container {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    h1 {
+      color: @white;
+    }
+  }
+}
+
+.primary-section {
+  padding-top: 335px;
+}
+
+.section-title {
+  padding-bottom: 50px;
+  hr {
+    width: 50px;
+    border-top: 2px solid @black;
+    margin-top: 15px;
+  }
+}
+
+.section-link {
+  a, p {
+    display: inline-block;
+  }
+  p {
+    font-weight: 700;
+    color: @grey;
+    font-size: 11px;
+    padding-left: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.cf-margin-bottom {
+  margin-bottom: 150px;
+}
+
+.clear {
+  clear: both;
+}
+
+/*********MEDIA QUERY*******/
+@media (max-width: @screen-sm-max) {
+  [class*="col-"] {
+    margin-bottom: 50px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+@media (max-width: @screen-xs-max) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 24px
+  }
+  .cf-margin-bottom {
+    margin-bottom: 50px;
+  }
+  .cf-margin-bottom-xs {
+    margin-bottom: 0 !important;
+  }
+  [class*="col-"] {
+    margin-bottom: 50px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  .banner-top {
+    height: 400px;
+    margin-bottom: 80px;
+  }
+  .primary-section {
+    padding-top: 200px;
+  }
+  section {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+
+  }
