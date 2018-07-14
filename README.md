@@ -8,7 +8,7 @@
 - Responsive
 
 ## Directives
-- Write fonctionnal description document for the client
+Write fonctionnal description document for the client
 
 ## Tools
 - Bootstrap
@@ -18,7 +18,6 @@
 # Installation
 
 
-- Install WordPress
-- Add wordpress theme (all files of project except specifications) to your local server
+Add all files of project (except specifications) to your wordpress environment
 
 
