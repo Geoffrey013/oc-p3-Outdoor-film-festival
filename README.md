@@ -1,5 +1,8 @@
 # EasyFoodApp
 
+[![Dashboard](docs/screenshots/Homepage.png)](docs/screenshots/Homepage.png)
+
+Voir tous les [screenshots](docs/screenshots.md).
 
 3rd project of my path with OpenClassroom, the point is:
 - Analyse specifications
