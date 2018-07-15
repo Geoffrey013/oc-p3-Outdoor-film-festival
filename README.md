@@ -1,6 +1,6 @@
 # EasyFoodApp
 
-[![Homepage](docs/screenshots/Homepage.png)](docs/screenshots/Homepage.png)
+[![Homepage](docs/screenshots/Homepage.jpg)](docs/screenshots/Homepage.jpg)
 
 Voir tous les [screenshots](docs/screenshots.md).
 
