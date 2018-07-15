@@ -9,4 +9,7 @@ Screenshots
 
 [![News](screenshots/News.jpg)](screenshots/News.jpg)
 
-[![Contact](screenshots/Contact.jpg)](screenshots/Contact.jpg)
+[![Responsive](screenshots/Responsive.jpg)](screenshots/Responsive.jpg)
+
+
+ 
