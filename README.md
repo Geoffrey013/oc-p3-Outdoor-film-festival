@@ -1,4 +1,4 @@
-# EasyFoodApp
+# Outdoor Movies Festival
 
 [![Homepage](docs/screenshots/Homepage.jpg)](docs/screenshots/Homepage.jpg)
 
@@ -21,6 +21,6 @@ Write fonctionnal description document for the client
 # Installation
 
 
-Add all files of project (except specifications) to your wordpress environment
+Add all files of project (except docs folder) to your wordpress environment
 
 
